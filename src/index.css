@@ -1,0 +1,264 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #04D0D9;
+}
+
+/* ESTILOS DASHBOARD SECCION USUARIO */
+
+.dashBoard-top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dashboardTexto{
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 10PX;
+  border-bottom: 4px solid #5d820e ;
+}
+
+.seccionUsuario{
+  text-align: center;
+  border-bottom: 2px solid black;
+  
+}
+.usuarios{
+  color:black;
+  position:relative;
+  width:700px;
+  left:35px;
+  background-color: #9ACB34;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.usersPanel{
+  
+}
+.usersTable{
+  margin-top:15px;
+  color:black;
+  width:700px;
+  position:relative;
+  left: 35px;
+  border-radius: 7px;
+}  
+.campos{
+  background-color: #9ACB34;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.filasUser{
+  padding:7px;
+  color:black;
+  background-color: #FBF8EF;  
+  text-align: start;
+}
+
+.ultimoUsuario{
+  margin-top:15px;
+  color:black;
+  position:relative;
+  width:696px;
+  height:408px;
+  left:36px;
+  background-color: #9ACB34;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.ultimoUsuario-text{
+  text-align: center;
+  border-bottom: 2px solid black;
+  
+}
+.detalles-UltimoUsario{  
+  padding-left: 10px;
+  font-size: 26px; 
+}
+.ultimoUsuario-Imagen{
+  margin-top:15px;
+  width:200px;
+  border-radius: 5px;
+}
+
+
+/* ESTILOS FOOTER */
+
+.containerFooter{
+  margin-top:25px;
+  background-color: #fbf8efc0;
+  color:black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.seccion{
+  flex-basis: 33%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.seccion i{
+  font-size: 20px;
+}
+
+.seccion p{
+  margin: 6px;
+  font-family:'Hind Madurai', sans-serif;
+}
+.copyright{
+  background-color: #fbf8efc0;
+  color:black;
+  text-align: center;
+  font-size: 18px;
+  font-family:'Lora', serif;
+  margin-bottom: 10px;
+}
+
+/* ESTILOS NAVBAR */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+nav{
+  background-color: #fbf8efc0;
+  background-size: 500px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+nav ul li{
+display:inline-block; /*hace que el comportamiento del elemento sea de bloque en linea*/
+box-sizing:border-box; /* el relleno y el borde están incluidos en el ancho y la altura*/
+padding:5px 5px;  /*arriba y abajo 5px de padding, izquierda y derecha 5px de padding */
+ /* background: #9ACB34; */
+  border-radius: 6px;
+ /* border-style: ridge; */
+}
+
+.nav-lista{
+text-decoration: none;
+padding: 10px;
+border-radius: 10px;
+color: rgb(51, 34, 117);
+outline: none;
+line-height: 35px;
+font-family: 'Lora', serif;
+font-size: 17px;
+}
+
+.nav-lista:hover {
+background-color: #35e9628a;
+padding: 10px;
+color: #ffffff;
+} 
+
+.imgLogo{
+  width: 190px;  
+  margin-right: 15px;
+}
+
+/* SECCIÓN PRODUCTOS */
+
+
+.productos{
+  color:black;
+  position:relative;
+  left:35px;
+  background-color: #9ACB34;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.productsPanel{
+  margin-left: 30px;
+}
+.productsTable{
+  margin-top:15px;
+  color:black;
+  width:1050px;
+  position:relative;
+  left: 35px;
+  border-radius: 7px;
+  height:100vh;
+}  
+
+.camposProd{
+  background-color: #9ACB34;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.imgProd{
+  width: 60px;
+  height: 60px;
+}
+
+.filasProd{
+  padding:7px;
+  color:black;
+  background-color: #FBF8EF;  
+  text-align: start;
+}
+
+
+/* SECCION CATEGORIAS */
+
+.categorias{
+  margin-top:15px;
+  color:black;
+  position:relative;
+  width:700px;
+  left: 35px;
+  background-color: #9ACB34;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.seccionCategoria{
+  text-align: center;
+  border-bottom: 2px solid black;
+  
+}
+
+.categoriesTable{
+  margin-top:15px;
+  color:black;
+  width:700px;
+  position:relative;
+  left: 35px;
+  border-radius: 7px;
+} 
